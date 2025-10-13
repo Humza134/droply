@@ -10,7 +10,7 @@
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
     "db:generate": "drizzle-kit generate",
-    "db:migrate": "tsx src/lib/db/migrate.ts" 
+    "db:migrate": "tsx src/lib/db/migrate.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
@@ -18,7 +18,8 @@
     "drizzle-orm": "^0.44.6",
     "next": "15.5.4",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
